@@ -1,0 +1,48 @@
+# config/config.yaml
+# =================
+# Pipeline configuration for STK11 variant pathogenicity classification.
+# Gene: STK11 (serine/threonine kinase 11)
+# Disease: Peutz-Jeghers syndrome
+
+gene_symbol: "STK11"
+inheritance: "autosomal_dominant"
+
+# Database versions
+vep_version: "115"
+gnomad_version: "4.1.0"
+clinvar_version: "2026-03-21"
+
+# Evidence thresholds
+pm2_threshold: 0.0001
+bs1_threshold: 0.001
+ba1_threshold: 0.05
+
+# Critical functional domains (amino acids)
+critical_domains:
+  - name: "kinase_domain"
+    aa_start: 49
+    aa_end: 309
+  - name: "SARAH_domain"
+    aa_start: 335
+    aa_end: 433
+
+# In silico thresholds (REVEL)
+revel_thresholds:
+  strong: 0.932
+  moderate: 0.773
+  supporting: 0.644
+  benign_supporting: 0.290
+  benign_moderate: 0.183
+
+# Splicing thresholds (SpliceAI)
+spliceai_thresholds:
+  strong: 0.8
+  moderate: 0.5
+  supporting: 0.2
+
+# Output files
+raw_vcf: "data/STK11_raw.vcf"
+normalized_vcf: "results/STK11/STK11_normalized.vcf"
+annotated_vcf: "results/STK11/STK11_annotated.vcf"
+classified_tsv: "results/STK11/classification/STK11_acmg_classified.tsv"
+report_html: "results/report/pipeline_report.html"

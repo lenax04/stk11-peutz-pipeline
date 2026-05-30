@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "stk11-peutz-pipeline: Automated ACMG/AMP Variant Classification Pipeline for STK11"
+abstract: >
+  An automated, reproducible pipeline for ACMG/AMP variant pathogenicity classification
+  of STK11 (Peutz-Jeghers syndrome) using the Tavtigian Bayesian point framework.
+authors:
+  - family-names: "Traczuk"
+    given-names: "Lena"
+  - family-names: "Fleischer"
+    given-names: "Dawid"
+version: "1.0.0"
+date-released: "2026-05-30"
+license: MIT
+repository-code: "https://github.com/dawidx1233/stk11-peutz-pipeline"
