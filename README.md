@@ -55,7 +55,7 @@ graph TD
 
 ```bash
 # Clone repository
-git clone https://github.com/dawidx1233/stk11-peutz-pipeline.git
+git clone https://github.com/lenax04/stk11-peutz-pipeline.git
 cd stk11-peutz-pipeline
 
 # Run full pipeline with conda environments
@@ -98,7 +98,6 @@ stk11-peutz-pipeline/
 │   ├── STK11/figures/
 │   └── comparison/
 ├── paper/paper.md                     # Manuscript
-├── paper/paper.pdf                    # Compiled PDF
 ├── Dockerfile
 ├── CITATION.cff
 └── LICENSE
@@ -127,7 +126,6 @@ The classifier implements the Tavtigian (2020) Bayesian point system:
 If you use this pipeline, please cite:
 
 ```bibtex
-@software{traczuk2026stk11,
   author = {Traczuk, Lena and Fleischer, Dawid},
   title = {stk11-peutz-pipeline: Automated ACMG/AMP Variant Classification for STK11},
   year = {2026},
