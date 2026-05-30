@@ -1,10 +1,7 @@
 # Automated ACMG/AMP Variant Pathogenicity Classification for STK11 (Peutz-Jeghers Syndrome): A Reproducible Bayesian Pipeline
 
-**Lena Traczuk**<sup>1,†</sup>, **Dawid Fleischer**<sup>2,†</sup>
-
-<sup>1</sup> Department of Bioinformatics, Warsaw University of Technology, Warsaw, Poland  
-<sup>2</sup> Institute of Bioorganic Chemistry, Polish Academy of Sciences, Poznan, Poland  
-<sup>†</sup> These authors contributed equally to this work.  
+Lena Traczuk,
+Dawid Fleischer
 
 ---
 
